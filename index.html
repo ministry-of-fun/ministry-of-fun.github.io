@@ -134,7 +134,8 @@
 					password = "facebook twitter instagram"
 					break;
 			}
-			alert("Your starting question is PDF-" + (1 + (4 * (setNumber - 1))) + "\nPassword to PDF-" + setNumber + " is - \"" + password + "\"")
+			questionNumber = 1 + (4 * (setNumber - 1))
+			alert("Your starting question is PDF-" + questionNumber + "\nPassword to PDF-" + questionNumber + " is - \"" + password + "\"")
 		}
 
 		function hashCode(_str) {
